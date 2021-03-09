@@ -4,7 +4,7 @@ if (substate == 0) then
                 --if (thevalue< 0.05) then
                     --substate = 3
                 set_color(0,3,3)
-                if (thevalue > theoldvalue)then
+                if (thevalue >= theoldvalue)then
                     substate = leftorright
                     theoldvalue = thevalue
                     
