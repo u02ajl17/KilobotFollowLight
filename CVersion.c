@@ -2,7 +2,7 @@ int thevalue; //currentvalue
 int theoldvalue; //previously stored thevalue
 int substate = 0; //controls substate
 int leftorright = 1; // Decides which direction left=1, right=2
-int motorMax = 200; //Decides speed of turning motor
+int motorMax = 50; //Decides speed of turning motor
 int motorMin = 25;//Decides speed of non-turning motor 
 int main(){
     if (substate == 0) { //intial state 
